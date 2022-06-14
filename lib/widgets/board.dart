@@ -35,6 +35,7 @@ class _BoardState extends State<Board> {
     return GridView.count(
         crossAxisCount: widget.side,
         childAspectRatio: 1,
+        physics: const NeverScrollableScrollPhysics(),
         children: List.generate(widget.side*widget.side, (index) {
           return Cell(
               isEmpty: widget.eCell.contains(index),

@@ -50,7 +50,9 @@ dev_dependencies:
   clay_containers: ^0.3.2
   function_tree: ^0.8.12
   animated_text_kit: ^4.2.2
-
+  google_fonts: ^3.0.1
+  page_transition: ^2.0.4
+  shared_preferences: ^2.0.15
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
